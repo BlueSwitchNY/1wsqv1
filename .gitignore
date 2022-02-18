@@ -11,6 +11,8 @@
 # production
 /build
 
+/public/images/panorama/uncompressed
+
 # misc
 .DS_Store
 .env.local

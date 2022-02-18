@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import {
+  Home,
+  Building,
+  Contact,
+  Availability,
+  Incentives,
+  Neighborhood,
+  Views,
+  Team,
+  Press,
+  Accessibility,
+  SkipLinks
+} from './components/_module';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+        <div className="App">
+          <SkipLinks />
+          <h1 className="hidden">1 Willoughby Square</h1>
+          <Route exact path="/" component={Home} />
+          <Route path="/building" component={Building} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/availability" component={Availability} />
+          <Route path="/incentives" component={Incentives} />
+          <Route path="/neighborhood" component={Neighborhood} />
+          <Route path="/views" component={Views} />
+          <Route path="/team" component={Team} />
+          <Route path="/press" component={Press} />
+          <Route path="/legal" component={Accessibility} />
+        </div>
+    </Router>
   );
-}
+};
 
 export default App;

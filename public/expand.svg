@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Desktop_icon/expand</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1WSQ-Desktop-Building" transform="translate(-810.000000, -984.000000)" fill="#FFFFFF">
+            <g id="gallery---exterior" transform="translate(446.000000, 233.000000)">
+                <g id="icon/expand" transform="translate(364.000000, 751.000000)">
+                    <path d="M3.19744231e-14,11 L3.19744231e-14,3.55271368e-15 L11,3.55271368e-15 L11,2 L2,2 L2,11 L3.19744231e-14,11 Z M21,3.55271368e-15 L32,3.55271368e-15 L32,11 L30,11 L30,2 L21,2 L21,3.55271368e-15 Z M3.19744231e-14,21 L3.19744231e-14,32 L11,32 L11,30 L2,30 L2,21 L3.19744231e-14,21 Z M21,32 L32,32 L32,21 L30,21 L30,30 L21,30 L21,32 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
