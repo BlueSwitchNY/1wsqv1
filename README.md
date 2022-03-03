@@ -1,3 +1,12 @@
+<p align='center'>
+<img src='public/images/logo-text-black.svg' width='200'/>
+</p>
+
+<h2 align='center'>
+1WSQ Website
+</h2>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
