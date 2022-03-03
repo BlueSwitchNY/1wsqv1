@@ -177,15 +177,24 @@ const Keyplan = styled.div`
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-start;
   img {
     max-width: 100%;
     max-height: 100%;
     ${mediaMin.tabletLandscape`
-    padding-right: 42%;
-    box-sizing: border-box;
+      max-width: 15%;
+    `}
+    ${mediaMin.desktopSmall`
+      max-width: 12%;
+    `}
+    ${mediaMin.desktop`
+      max-width: 60%;
+      max-height: 60%;
     `}
   }
+  ${mediaMin.desktop`
+    justify-content: flex-end;
+  `}
 `;
 
 const CloseOverlay = styled.button`
