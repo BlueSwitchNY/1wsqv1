@@ -5,7 +5,7 @@ const penthouseInfo = {
   ceilingHeight: '14 FEET',
   headCountTwo: '36',
   headCountThree: '91',
-  floorplanOne: '/images/floorplans/PenthousePlan-Core&Shell-01.png',
+  floorplanOne: '/images/floorplans/PenthousePlan-Core&Shell.png',
   floorplanOneAlt: 'Unfurnished floor plan of office in high rise section',
   floorplanTwo: '/images/floorplans/Test-Fit-1.png',
   floorplanTwoAlt:
@@ -22,7 +22,7 @@ const overlayHighInfo = {
   ceilingHeight: '14 FEET',
   headCountTwo: '36',
   headCountThree: '91',
-  floorplanOne: '/images/floorplans/High-Rise-Core-and-Shell.png',
+  floorplanOne: '/images/floorplans/High-Rise-Core&Shell.png',
   floorplanOneAlt: 'Unfurnished floor plan of office in high rise section',
   floorplanTwo: '/images/floorplans/Test-Fit-1.png',
   floorplanTwoAlt:
@@ -40,7 +40,7 @@ const overlayMidInfo = {
   headCountTwo: '68',
   headCountThree: '78',
   headCountFour: '61',
-  floorplanOne: '/images/floorplans/Mid-Rise-Plan-Core&Shell-01.png',
+  floorplanOne: '/images/floorplans/Mid-Rise Plan-Core&Shell.png',
   floorplanOneAlt: 'Unfurnished floor plan of office in low rise section',
   floorplanTwo: '/images/floorplans/Test-Fit-1.png',
   floorplanTwoAlt:

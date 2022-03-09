@@ -11,7 +11,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project is hosted on [Netlify](https://xenodochial-hoover-455d7b.netlify.app).
+This project is hosted on Netlify [here](https://xenodochial-hoover-455d7b.netlify.app).
 
 ## Available Scripts
 
