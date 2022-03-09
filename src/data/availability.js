@@ -59,7 +59,7 @@ const overlaySuperInfo = {
   ceilingHeight: '16 FEET',
   // lowOccupancy: '36',
   // highOccupancy: '91',
-  floorplanOne: '/images/floorplans/superfloor.svg',
+  floorplanOne: '/images/floorplans/Superfloor-Plan.png',
   floorplanOneAlt: 'Unfurnished floor plan of office in superfloor section'
 };
 
