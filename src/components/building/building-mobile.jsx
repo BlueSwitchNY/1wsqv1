@@ -27,31 +27,15 @@ const BuildingMobile = () => {
           imgAlt="Rendering of sunset view over the east river"
         />
         <ResponsiveImage
-          srcPath="/images/building/mobile-crops-building2"
+          srcPath="/images/building/1WilloughbySquare-202205-JoeThomas-1"
           srcSet=""
           imgAlt="Rendering of sunset view over the east river"
         />
         <ResponsiveImage
-          srcPath="/images/building/mobile-crops-building1"
+          srcPath="/images/building/1WilloughbySquare-202205-JoeThomas-3"
           srcSet=""
           imgAlt="Rendering of sunset view over the east river"
         />
-        {/* <ResponsiveImage
-          srcPath="/images/building/building1"
-          srcSet=""
-          imgAlt="Rendering of One Wiloughby Square Exterior with east river in background"
-        />
-        <ResponsiveImage
-          srcPath="/images/building/building2"
-          srcSet=""
-          imgAlt="Close up rendering of One Wiloughby Square Exterior with park"
-        />
-
-        <ResponsiveImage
-          srcPath="/images/building/building3"
-          srcSet=""
-          imgAlt="Aerial rendering of One Wiloughby Square Exterior"
-        /> */}
       </ImageSection>
       <MobileTextSection>
         <h5>THE OFFICES</h5>
@@ -65,54 +49,32 @@ const BuildingMobile = () => {
       </MobileTextSection>
       <ImageSection>
       <ResponsiveImage
-          srcPath="/images/building/mobile-crops-office6"
+          srcPath="/images/building/1WilloughbySquare-202205-JoeThomas-30"
           srcSet=""
-          imgAlt="Rendering of multilevel office space"
+          imgAlt="Rendering of One Wiloughby Square Exterior with east river in background"
         />
         <ResponsiveImage
-          srcPath="/images/building/mobile-crops-office5"
+          srcPath="/images/building/1WilloughbySquare-202205-JoeThomas-24"
           srcSet=""
-          imgAlt="Rendering of multilevel office space"
+          imgAlt="Close up rendering of One Wiloughby Square Exterior with park"
         />
         <ResponsiveImage
-          srcPath="/images/building/mobile-crops-office4"
+          srcPath="/images/building/1WilloughbySquare-202205-JoeThomas-19"
           srcSet=""
-          imgAlt="Rendering of multilevel office space"
-        />
-        <ResponsiveImage
-          srcPath="/images/building/mobile-crops-office3"
-          srcSet=""
-          imgAlt="Rendering of multilevel office space"
-        />
-        <ResponsiveImage
-          srcPath="/images/building/mobile-crops-office2"
-          srcSet=""
-          imgAlt="Rendering of multilevel office space"
-        />
-        <ResponsiveImage
-          srcPath="/images/building/mobile-crops-office1"
-          srcSet=""
-          imgAlt="Rendering of multilevel office space"
-        />
-        {/* <ResponsiveImage
-          srcPath="/images/building/building5"
-          imgAlt="Rendering of multilevel office space"
+          imgAlt="Close up rendering of One Wiloughby Square Exterior with park"
         />
 
         <ResponsiveImage
-          srcPath="/images/building/building7"
-          imgAlt="Rendering of open office space"
+          srcPath="/images/building/1WSQ_11-22_002"
+          srcSet=""
+          imgAlt="Aerial rendering of One Wiloughby Square Exterior"
         />
 
         <ResponsiveImage
-          srcPath="/images/building/building8"
-          imgAlt="Rendering of lounge area with patio at dusk"
+          srcPath="/images/building/1WSQ_11-22_015"
+          srcSet=""
+          imgAlt="Aerial rendering of One Wiloughby Square Exterior"
         />
-
-        <ResponsiveImage
-          srcPath="/images/building/building9"
-          imgAlt="Rendering of rooftop view"
-        /> */}
       </ImageSection>
       <MobileTextSection>
         <h5>THE ARCHITECT</h5>
