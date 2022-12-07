@@ -4,10 +4,9 @@ import { Container, MobileTextSection, ImageSection } from "../utils/grid";
 import { ResponsiveImage, ScrollToTop } from "../utils";
 
 const BuildingMobile = () => {
-
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [])
+  }, []);
 
   return (
     <Container>
@@ -21,7 +20,7 @@ const BuildingMobile = () => {
         </p>
       </MobileTextSection>
       <ImageSection>
-      <ResponsiveImage
+        <ResponsiveImage
           srcPath="/images/building/mobile-crops-building3"
           srcSet=""
           imgAlt="Rendering of sunset view over the east river"
@@ -48,13 +47,43 @@ const BuildingMobile = () => {
         </p>
       </MobileTextSection>
       <ImageSection>
-      <ResponsiveImage
+        <ResponsiveImage
           srcPath="/images/building/1WilloughbySquare-202205-JoeThomas-30"
           srcSet=""
           imgAlt="Rendering of One Wiloughby Square Exterior with east river in background"
         />
         <ResponsiveImage
+          srcPath="/images/building/1WilloughbySquare-202205-JoeThomas-27"
+          srcSet=""
+          imgAlt="Rendering of sunset view over the east river"
+        />
+        <ResponsiveImage
+          srcPath="/images/building/1WSQ15__009"
+          srcSet=""
+          imgAlt="Rendering of sunset view over the east river"
+        />
+        <ResponsiveImage
+          srcPath="/images/building/1WSQ15__012"
+          srcSet=""
+          imgAlt="Rendering of sunset view over the east river"
+        />
+        <ResponsiveImage
+          srcPath="/images/building/1WSQ15__001"
+          srcSet=""
+          imgAlt="Rendering of sunset view over the east river"
+        />
+        <ResponsiveImage
           srcPath="/images/building/1WilloughbySquare-202205-JoeThomas-24"
+          srcSet=""
+          imgAlt="Close up rendering of One Wiloughby Square Exterior with park"
+        />
+        <ResponsiveImage
+          srcPath="/images/building/1WSQ15__018"
+          srcSet=""
+          imgAlt="Close up rendering of One Wiloughby Square Exterior with park"
+        />
+        <ResponsiveImage
+          srcPath="/images/building/1WilloughbySquare-202205-JoeThomas-20"
           srcSet=""
           imgAlt="Close up rendering of One Wiloughby Square Exterior with park"
         />
@@ -69,7 +98,11 @@ const BuildingMobile = () => {
           srcSet=""
           imgAlt="Aerial rendering of One Wiloughby Square Exterior"
         />
-
+        <ResponsiveImage
+          srcPath="/images/building/1WSQ_11-22_008"
+          srcSet=""
+          imgAlt="Close up rendering of One Wiloughby Square Exterior with park"
+        />
         <ResponsiveImage
           srcPath="/images/building/1WSQ_11-22_015"
           srcSet=""
