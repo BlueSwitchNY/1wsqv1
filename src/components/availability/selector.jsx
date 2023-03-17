@@ -95,8 +95,8 @@ const Selector = ({
         onMouseEnter={() => updateMouseOver('HIGH')}
         onMouseLeave={() => updateMouseOver('')}
       >
-        <div className="availability-section-floors">Floors 28-35</div>
-        <div className="availability-section-title">PENTHOUSE</div>
+        <div className="availability-section-floors">Floors 27-54</div>
+        <div className="availability-section-title">HIGH RISE</div>
         <button className="floorplan-btn" onClick={openOverlayHigh}>
           FLOOR PLAN
         </button>
@@ -106,8 +106,8 @@ const Selector = ({
         onMouseEnter={() => updateMouseOver('MID')}
         onMouseLeave={() => updateMouseOver('')}
       >
-        <div className="availability-section-floors">Floors 21-26</div>
-        <div className="availability-section-title">HIGH RISE</div>
+        <div className="availability-section-floors">Floors 20-26</div>
+        <div className="availability-section-title">MID RISE</div>
         <button className="floorplan-btn" onClick={openOverlayMid}>
           FLOOR PLAN
         </button>
@@ -117,8 +117,8 @@ const Selector = ({
         onMouseEnter={() => updateMouseOver('LOW')}
         onMouseLeave={() => updateMouseOver('')}
       >
-        <div className="availability-section-floors">Floors 10-20</div>
-        <div className="availability-section-title">MID RISE</div>
+        <div className="availability-section-floors">Floors 7-9</div>
+        <div className="availability-section-title">LOW RISE</div>
         <button className="floorplan-btn" onClick={openOverlayLow}>
           FLOOR PLAN
         </button>
@@ -128,7 +128,7 @@ const Selector = ({
         onMouseEnter={() => updateMouseOver('SUPER')}
         onMouseLeave={() => updateMouseOver('')}
       >
-        <div className="availability-section-floors">Floors 7, 16, 26, 35</div>
+        <div className="availability-section-floors">Floors 7, 15, 25, 34</div>
         <div className="availability-section-title">SUPERFLOOR</div>
         <button className="floorplan-btn" onClick={openOverlaySuper}>
           FLOOR PLAN
