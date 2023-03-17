@@ -278,6 +278,7 @@ const Press = () => {
     });
 
     setPressData(pressData);
+    console.log("This is the press data", pressData)
   };
 
   const generatePressItems = () => {
