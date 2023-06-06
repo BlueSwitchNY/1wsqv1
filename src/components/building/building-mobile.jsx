@@ -21,17 +21,17 @@ const BuildingMobile = () => {
       </MobileTextSection>
       <ImageSection>
         <ResponsiveImage
-          srcPath="/images/building/mobile-crops-building3"
+          srcPath="/images/building/desktop-crops-building3-min"
           srcSet=""
           imgAlt="Rendering of sunset view over the east river"
         />
         <ResponsiveImage
-          srcPath="/images/building/1WilloughbySquare-202205-JoeThomas-1"
+          srcPath="/images/building/1WilloughbySquare-202205-JoeThomas-1-min"
           srcSet=""
           imgAlt="Rendering of sunset view over the east river"
         />
         <ResponsiveImage
-          srcPath="/images/building/1WilloughbySquare-202205-JoeThomas-3"
+          srcPath="/images/building/1WilloughbySquare-202205-JoeThomas-3-1-min"
           srcSet=""
           imgAlt="Rendering of sunset view over the east river"
         />
@@ -48,52 +48,52 @@ const BuildingMobile = () => {
       </MobileTextSection>
       <ImageSection>
       <ResponsiveImage
-          srcPath="/images/building/1WilloughbySquare-202205-JoeThomas-30"
+          srcPath="/images/building/1WilloughbySquare-202205-JoeThomas-30-min"
           srcSet=""
           imgAlt="Rendering of One Wiloughby Square Exterior with east river in background"
         />
         <ResponsiveImage
-          srcPath="/images/building/1WilloughbySquare-202205-JoeThomas-27"
+          srcPath="/images/building/1WilloughbySquare-202205-JoeThomas-27-min"
           srcSet=""
           imgAlt="Rendering of sunset view over the east river"
         />
         <ResponsiveImage
-          srcPath="/images/building/1WSQ15__018"
+          srcPath="/images/building/1WSQ15__018-min"
           srcSet=""
           imgAlt="Close up rendering of One Wiloughby Square Exterior with park"
         />
         <ResponsiveImage
-          srcPath="/images/building/1WSQ_11-22_018"
+          srcPath="/images/building/1WSQ_11-22_018-min"
           srcSet=""
           imgAlt="Rendering of sunset view over the east river"
         />
         <ResponsiveImage
-          srcPath="/images/building/1WSQ_11-22_019"
+          srcPath="/images/building/1WSQ_11-22_019-min"
           srcSet=""
           imgAlt="Close up rendering of One Wiloughby Square Exterior with park"
         />
         <ResponsiveImage
-          srcPath="/images/building/1WSQ_11-22_011"
+          srcPath="/images/building/1WSQ_11-22_011-min"
           srcSet=""
           imgAlt="Aerial rendering of One Wiloughby Square Exterior"
         />
         <ResponsiveImage
-          srcPath="/images/building/1WilloughbySquare-202205-JoeThomas-19"
+          srcPath="/images/building/1WilloughbySquare-202205-JoeThomas-19-min"
           srcSet=""
           imgAlt="Close up rendering of One Wiloughby Square Exterior with park"
         />
         <ResponsiveImage
-          srcPath="/images/building/1WSQ_11-22_001"
+          srcPath="/images/building/1WSQ_11-22_001-min"
           srcSet=""
           imgAlt="Aerial rendering of One Wiloughby Square Exterior"
         />
         <ResponsiveImage
-          srcPath="/images/building/1WSQ_11-22_007"
+          srcPath="/images/building/1WSQ_11-22_007-min"
           srcSet=""
           imgAlt="Aerial rendering of One Wiloughby Square Exterior"
         />
         <ResponsiveImage
-          srcPath="/images/building/1WSQ_11-22_008"
+          srcPath="/images/building/1WSQ_11-22_008-min"
           srcSet=""
           imgAlt="Close up rendering of One Wiloughby Square Exterior with park"
         />
