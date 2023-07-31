@@ -13,10 +13,10 @@ const BuildingDesktop = () => {
       <TextSection>
         <h5>THE BUILDING</h5>
         <p>
-          Introducing 1 Willoughby Square, Brooklyn’s first ground-up office
-          tower in a generation. 1WSQ opens directly to the 1-acre Willoughby
-          Square Park and climbs 34 stories above Brooklyn to offer unobstructed
-          views of New York’s skylines and waterways.
+          Introducing 1 Willoughby Square, Brooklyn’s tallest office building. 
+          1WSQ opens directly to the 1-acre Willoughby Square Park and climbs 
+          34 stories above Brooklyn to offer unobstructed views of New York’s 
+          skylines and waterways.
         </p>
       </TextSection>
       <ImageSection>
