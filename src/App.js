@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import {
   Home,
   Building,
@@ -20,16 +20,18 @@ const App = () => {
         <div className="App">
           <SkipLinks />
           <h1 className="hidden">1 Willoughby Square</h1>
-          <Route exact path="/" component={Home} />
-          <Route path="/building" component={Building} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/availability" component={Availability} />
-          <Route path="/incentives" component={Incentives} />
-          <Route path="/neighborhood" component={Neighborhood} />
-          <Route path="/views" component={Views} />
-          <Route path="/team" component={Team} />
-          <Route path="/press" component={Press} />
-          <Route path="/legal" component={Accessibility} />
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/building" element={<Building />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/availability" element={<Availability />} />
+            <Route path="/incentives" element={<Incentives />} />
+            <Route path="/neighborhood" element={<Neighborhood />} />
+            <Route path="/views" element={<Views />} />
+            <Route path="/team" element={<Team />} />
+            <Route path="/press" element={<Press />} />
+            <Route path="/legal" element={<Accessibility />} />
+          </Routes>
         </div>
     </Router>
   );
