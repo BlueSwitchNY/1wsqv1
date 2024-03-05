@@ -153,6 +153,24 @@ const AvailabilityMobile = ({
         </RightCol>
       </MobileColBottom>
       <CTAContainer>
+      <DownloadButton aria-label="download all floorplans as pdf">
+          <a
+            href="images/availability/Flyer.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="download-all-button"
+          >
+            <div className="button-left">
+              <img
+                className="download-icon"
+                src="/images/availability/download-icon.svg"
+                alt="download icon"
+                aria-hidden
+              />
+            </div>
+            <div className="button-right">DOWNLOAD BROCHURE</div>
+          </a>
+        </DownloadButton>
         <DownloadButton aria-label="download all floorplans as pdf">
           <a
             href="images/availability/1WSQ_FLOOR_PLANS.pdf"
@@ -172,7 +190,7 @@ const AvailabilityMobile = ({
           </a>
         </DownloadButton>
         <p style={{ marginBottom: `1em`, marginTop: `1.25em` }}>
-          PRE BUILTS AVAILABLE MARCH 2022
+          PRE BUILT LAYOUTS
         </p>
         <DownloadButton aria-label="download all floorplans as pdf">
           <a

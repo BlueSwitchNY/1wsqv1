@@ -169,7 +169,7 @@ const SelectorCarousel = ({
           style={{ opacity: opacity === 2 ? `1` : `0.5` }}
           className="selector-item"
         >
-          <p>Floors 21-26</p>
+          <p>Floors 27-34</p>
           <h1>HIGH RISE</h1>
           <div className="selector-button" onClick={openOverlayMid}>
             FLOORPLAN
