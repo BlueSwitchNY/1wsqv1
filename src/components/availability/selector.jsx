@@ -95,7 +95,7 @@ const Selector = ({
         onMouseEnter={() => updateMouseOver('HIGH')}
         onMouseLeave={() => updateMouseOver('')}
       >
-        <div className="availability-section-floors">Floors 27-54</div>
+        <div className="availability-section-floors">Floors 27-34</div>
         <div className="availability-section-title">HIGH RISE</div>
         <button className="floorplan-btn" onClick={openOverlayHigh}>
           FLOOR PLAN
