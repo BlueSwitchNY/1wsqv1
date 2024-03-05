@@ -21,7 +21,12 @@ const BuildingDesktop = () => {
       </TextSection>
       <ImageSection>
         <ResponsiveImage
-          srcPath="/images/building/desktop-crops-building3-min"
+          srcPath="/images/building/2022DS23-014RE"
+          srcSet=""
+          imgAlt="Rendering of sunset view over the east river"
+        />
+        <ResponsiveImage
+          srcPath="/images/building/2022DS23-004RE"
           srcSet=""
           imgAlt="Rendering of sunset view over the east river"
         />
@@ -31,7 +36,7 @@ const BuildingDesktop = () => {
           imgAlt="Rendering of sunset view over the east river"
         />
         <ResponsiveImage
-          srcPath="/images/building/1WilloughbySquare-202205-JoeThomas-3-1-min"
+          srcPath="/images/building/2022DS23-032RE"
           srcSet=""
           imgAlt="Rendering of sunset view over the east river"
         />

@@ -272,6 +272,26 @@ const AvailabilityDesktop = ({
         </object>
       </CenterCol>
       <RightCol>
+      <DownloadButtonDesktop aria-label="download all floorplans as pdf">
+          <a
+            href="images/availability/Flyer.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="download-all-button-desktop"
+          >
+            <div className="button-left-desktop">
+              <img
+                className="download-icon"
+                src="/images/availability/download-icon.svg"
+                alt="download icon"
+                aria-hidden
+              />
+            </div>
+            <div className="button-right-desktop">
+              DOWNLOAD BROCHURE
+            </div>
+          </a>
+        </DownloadButtonDesktop>
         <DownloadButtonDesktop aria-label="download all floorplans as pdf">
           <a
             href="images/availability/1WSQ_FLOOR_PLANS.pdf"
@@ -293,7 +313,7 @@ const AvailabilityDesktop = ({
           </a>
         </DownloadButtonDesktop>
         <p style={{ marginBottom: `1em`, marginTop: `2.5em` }}>
-          PRE BUILTS AVAILABLE MARCH 2022
+          PRE BUILT LAYOUTS
         </p>
         <DownloadButtonDesktop aria-label="download all floorplans as pdf">
           <a
