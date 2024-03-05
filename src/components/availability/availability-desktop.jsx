@@ -274,7 +274,7 @@ const AvailabilityDesktop = ({
       <RightCol>
       <DownloadButtonDesktop aria-label="download all floorplans as pdf">
           <a
-            href="images/availability/Flyer.pdf"
+            href="images/availability/1-Willoughby-Square-Flyer-02012024.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="download-all-button-desktop"
