@@ -155,7 +155,7 @@ const AvailabilityMobile = ({
       <CTAContainer>
       <DownloadButton aria-label="download all floorplans as pdf">
           <a
-            href="images/availability/1-Willoughby-Square-Flyer-02012024.pdf"
+            href="images/availability/1-Willoughby-Square-Flyer-03232024.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="download-all-button"
@@ -186,10 +186,10 @@ const AvailabilityMobile = ({
                 aria-hidden
               />
             </div>
-            <div className="button-right">FLOOR PLANS AND TEST FITS</div>
+            <div className="button-right">TEST FITS</div>
           </a>
         </DownloadButton>
-        <p style={{ marginBottom: `1em`, marginTop: `1.25em` }}>
+        {/* <p style={{ marginBottom: `1em`, marginTop: `1.25em` }}>
           PRE BUILT LAYOUTS
         </p>
         <DownloadButton aria-label="download all floorplans as pdf">
@@ -227,7 +227,7 @@ const AvailabilityMobile = ({
             </div>
             <div className="button-right">16TH FLOOR - PARTIAL</div>
           </a>
-        </DownloadButton>
+        </DownloadButton> */}
       </CTAContainer>
     </MobileCol>
   );
