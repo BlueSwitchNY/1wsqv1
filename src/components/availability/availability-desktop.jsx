@@ -274,7 +274,7 @@ const AvailabilityDesktop = ({
       <RightCol>
       <DownloadButtonDesktop aria-label="download all floorplans as pdf">
           <a
-            href="images/availability/1-Willoughby-Square-Flyer-02012024.pdf"
+            href="images/availability/1-Willoughby-Square-Flyer-03232024.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="download-all-button-desktop"
@@ -308,11 +308,11 @@ const AvailabilityDesktop = ({
               />
             </div>
             <div className="button-right-desktop">
-              FLOOR PLANS AND TEST FITS
+              TEST FITS
             </div>
           </a>
         </DownloadButtonDesktop>
-        <p style={{ marginBottom: `1em`, marginTop: `2.5em` }}>
+        {/* <p style={{ marginBottom: `1em`, marginTop: `2.5em` }}>
           PRE BUILT LAYOUTS
         </p>
         <DownloadButtonDesktop aria-label="download all floorplans as pdf">
@@ -350,7 +350,7 @@ const AvailabilityDesktop = ({
             </div>
             <div className="button-right-desktop">16TH FLOOR - PARTIAL</div>
           </a>
-        </DownloadButtonDesktop>
+        </DownloadButtonDesktop> */}
       </RightCol>
     </Container>
   );
