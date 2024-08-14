@@ -13,10 +13,9 @@ const BuildingDesktop = () => {
       <TextSection>
         <h5>THE BUILDING</h5>
         <p>
-          Introducing 1 Willoughby Square, Brooklyn’s tallest office building. 
-          1WSQ opens directly to the 1-acre Willoughby Square Park and climbs 
-          34 stories above Brooklyn to offer unobstructed views of New York’s 
-          skylines and waterways.
+        Introducing 1 Willoughby Square, Brooklyn's tallest office building. 1WSQ opens directly to the 1-
+        acre Abolitionist Place park and climbs 34 stories above Brooklyn to offer unobstructed views of
+        New York's skylines and waterways.
         </p>
       </TextSection>
       <ImageSection>
@@ -37,6 +36,11 @@ const BuildingDesktop = () => {
         />
         <ResponsiveImage
           srcPath="/images/building/2022DS23-032RE"
+          srcSet=""
+          imgAlt="Rendering of sunset view over the east river"
+        />
+        <ResponsiveImage
+          srcPath="/images/building/1WSQ_July2024_021"
           srcSet=""
           imgAlt="Rendering of sunset view over the east river"
         />
