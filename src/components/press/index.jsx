@@ -1,7 +1,7 @@
 /* eslint-disable no-loop-func */
 import React, { useState, useRef, useEffect } from "react"
 import styled from "styled-components"
-import BottomScrollListener from "react-bottom-scroll-listener"
+import { BottomScrollListener } from "react-bottom-scroll-listener"
 
 import { Row, LeftCol, RightCol, TextSection, Spacer } from "../utils/grid"
 import Footer from "../footer"
@@ -222,8 +222,7 @@ const PressItem = ({ pressItemData }) => {
 				href={full_article_pdf ? full_article_pdf : full_article_link}
 				target="_blank"
 				rel="noopener noreferrer"
-				aria-label="link to full article"
-			>
+				aria-label="link to full article">
 				FULL ARTICLE
 			</a>
 		</PressItemContainer>
@@ -284,10 +283,7 @@ const Press = () => {
 					// Use a Map to filter out duplicates based on article_title
 					if (!acc.articleTitleMap.has(pressItem.acf.article_title)) {
 						acc.pressData.push(pressItem)
-						acc.articleTitleMap.set(
-							pressItem.acf.article_title,
-							true
-						)
+						acc.articleTitleMap.set(pressItem.acf.article_title, true)
 					}
 					return acc
 				},
